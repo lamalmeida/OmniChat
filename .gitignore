@@ -171,5 +171,5 @@ dist/
 *.sqlite
 *.sqlite3
 *.db-journal
-*.db-shm  # Shared memory file
-*.db-wal  # Write-ahead log file
+*.db-shm  
+*.db-wal 
