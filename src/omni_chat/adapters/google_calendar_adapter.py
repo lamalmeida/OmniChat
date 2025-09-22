@@ -8,7 +8,11 @@ from googleapiclient.discovery import build
 from .tool_adapter import ToolAdapter
 
 # If modifying these scopes, delete the token.pickle file
-SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
+SCOPES = [
+    'https://www.googleapis.com/auth/gmail.readonly',
+    'https://www.googleapis.com/auth/gmail.modify',
+    'https://www.googleapis.com/auth/calendar.readonly'
+]
 CREDENTIALS_FILE = 'credentials.json'
 TOKEN_FILE = 'token.pickle'
 
