@@ -158,3 +158,18 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# Migration scripts (if they're one-time use)
+migrate_db.py
+
+# Additional build artifacts
+*.egg-info/
+build/
+dist/
+
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-shm  # Shared memory file
+*.db-wal  # Write-ahead log file
